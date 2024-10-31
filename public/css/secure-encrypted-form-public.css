@@ -1,0 +1,64 @@
+.secure-form label {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    padding: 0;
+}
+
+.secure-form input {
+    width: 100%;
+}
+
+.secure-form input[type="submit"] {
+    margin-top: 20px;
+}
+
+.secure-form .alert {
+    margin-top: 20px;
+    padding: 1rem;
+    width: 100%;
+    font-weight: 500;
+}
+
+.secure-form .alert-danger {
+    color: #c53030;
+    border: 1px solid #fc8181;
+    background-color: #fff5f5;
+}
+
+.secure-form .alert-success {
+    color: #234e52;
+    border: 1px solid #38b2ac;
+    background-color: #e6fffa;
+}
+
+.secure-form .has-error input,
+.secure-form .has-error textarea {
+    border-color: #fc8181 !important;
+}
+
+.secure-form .has-error .help-block {
+    color: #c53030;
+}
+
+.spinner-wrapper {
+    text-align: center;
+}
+
+.spinner {
+    background: url('/wp-admin/images//spinner.gif') no-repeat;
+    background-size: 20px 20px;
+    display: inline-block;
+    vertical-align: middle;
+    opacity: .7;
+    width: 20px;
+    height: 20px;
+    margin: 4px 10px 0;
+}
+
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+    .spinner {
+        background-image: url('/wp-admin/images/spinner-2x.gif');
+    }
+}
